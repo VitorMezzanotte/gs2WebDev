@@ -45,13 +45,12 @@ npm run dev
 yarn dev
 
 🔗 Links para a Entrega
-Link do Repositório: [https://github.com/VitorMezzanotte/gs2WebDev]
+* **Link do Repositório:** [Repositório GitHub do Projeto](https://github.com/VitorMezzanotte/gs2WebDev) 
 
-Link do Deploy(Vercel): [https://gs2-web-dev.vercel.app/]
+* **Link do Deploy:** [Deploy do Projeto na Vercel](https://gs2-web-dev.vercel.app/)
 
-
-Usuários e Senhas: Não há usuários ou senhas no projeto.
+* **Usuários e Senhas:** Não há usuários ou senhas no projeto.
 
 👤 Integrantes do Grupo:
 
-Vitor Mezzanotte Constante - RM 562051
+Vitor Mezzanotte Constante - RM: 562051
