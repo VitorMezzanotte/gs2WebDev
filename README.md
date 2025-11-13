@@ -1,16 +1,57 @@
-# React + Vite
+# 🌐 Global Solution Talent Hub - Plataforma de Conexão Profissional
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Resumo do Projeto
 
-Currently, two official plugins are available:
+Esta aplicação web interativa foi desenvolvida em **React** e estilizada com **Tailwind CSS**, simulando uma rede profissional com o tema "O Futuro do Trabalho". O objetivo é conectar profissionais, permitindo exibir e explorar perfis detalhados a partir de dados simulados em um arquivo JSON.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Requisitos Funcionais e de Design Implementados
 
-## React Compiler
+**Listagem de Cards:** Exibe dados básicos dos 60 profissionais (nome, foto, cargo e principais skills).
+**Modal Interativa:** Aberta ao clique, exibe dados detalhados (acadêmicos, experiências, soft skills e projetos).
+**Ações:** Botões funcionais (simulados) de “Recomendar profissional” e “Enviar mensagem”.
+**Busca & Filtros:** Sistema de busca robusto por área, cidade ou tecnologia[cite: 16].
+**Design:** Totalmente **Responsivo** e funcionalidade **Dark Mode**, utilizando Tailwind CSS.
+**Versionamento:** O projeto foi entregue com o mínimo de dez (10) commits.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Instalação do Projeto (Passo-a-Passo)
 
-## Expanding the ESLint configuration
+Siga os passos abaixo para clonar e executar a aplicação em sua máquina local.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Pré-requisitos
+Certifique-se de ter o **Node.js** e o **npm** (ou Yarn) instalados em seu sistema.
+
+### 2. Clonagem do Repositório
+```bash
+# Clone o seu repositório Git
+git clone [https://github.com/VitorMezzanotte/gs2WebDev]
+cd nome-do-seu-projeto
+
+3. Instalação de Dependências
+Instale todos os pacotes necessários (React, Tailwind CSS e dependências de build).
+
+Bash
+
+npm install
+# OU
+yarn install
+
+4. Execução da Aplicação
+Inicie o servidor de desenvolvimento. A aplicação será aberta em seu navegador (geralmente em http://localhost:5173).
+
+Bash
+
+npm run dev
+# OU
+yarn dev
+
+🔗 Links para a Entrega
+Link do Repositório: [https://github.com/VitorMezzanotte/gs2WebDev]
+
+Link do Deploy(Vercel): [https://gs2-web-dev.vercel.app/]
+
+
+Usuários e Senhas: Não há usuários ou senhas no projeto.
+
+👤 Integrantes do Grupo:
+
+Vitor Mezzanotte Constante - RM 562051

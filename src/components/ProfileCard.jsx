@@ -26,9 +26,9 @@ const ProfileCard = ({ profile, onCardClick }) => {
         {/* Foto do Perfil */}
         <div className="flex-shrink-0 w-16 h-16">
           <img
-            src={foto.replace('./images', 'src/assets/images')} 
+            src={profile.foto.replace(/^\.\//, '/')}
             alt={`Foto de perfil de ${nome}`}
-            className="w-full h-full rounded-full object-cover border-2 border-indigo-500" //
+            className="w-16 h-16 rounded-full object-cover border-2 border-indigo-500" 
           />
         </div>
 
