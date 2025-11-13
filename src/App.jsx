@@ -73,7 +73,7 @@ function App() {
       <header className="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-20">
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
-            Global Solution Talent Hub
+            ConnectingIn
           </h1>
           
           {/* Botão de Toggle para Dark Mode */}

@@ -166,7 +166,7 @@ const ProfileModal = ({ profile, onClose }) => {
                 </div>
                 <div>
                     <p className="font-semibold text-gray-700 dark:text-gray-300 mb-2">Idiomas:</p>
-                    <ul className="list-disc list-inside space-y-1 text-sm">
+                    <ul className="list-disc list-inside space-y-1 text-sm text-violet-700">
                         {idiomas.map((lang, index) => (
                             <li key={index}>
                                 {lang.idioma} ({lang.nivel})
@@ -175,7 +175,7 @@ const ProfileModal = ({ profile, onClose }) => {
                     </ul>
                 </div>
                 <div>
-                    <p className="font-semibold text-gray-700 dark:text-gray-300 mb-2">Áreas de Interesse:</p>
+                    <p className="font-semibold text-indigo-400 dark:text-gray-300 mb-2">Áreas de Interesse:</p>
                     <div className="flex flex-wrap gap-1">
                         {areaInteresses.map((interest, index) => (
                             <span key={index} className="px-2 py-0.5 text-xs rounded-full bg-gray-200 text-gray-800 dark:bg-gray-700 dark:text-gray-300">
