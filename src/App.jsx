@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import profilesData from './data/profiles.json'; 
 import ProfileCard from './components/ProfileCard';
-import ProfileModal from './components/ProfileModal'; // ⬅️ NOVO: Import do Modal
+import ProfileModal from './components/ProfileModal';
+import SearchBar from './components/SearchBar'; // ⬅️ NOVO: Import da SearchBar
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProfile, setSelectedProfile] = useState(null);
+  const [searchTerm, setSearchTerm] = useState(''); // ⬅️ NOVO: Estado para a busca
   
   // Aplica a classe 'dark' ao corpo do HTML
   useEffect(() => {
@@ -17,21 +19,58 @@ function App() {
     }
   }, [darkMode]);
 
-  // Função chamada ao clicar no Card
+  // Função de filtro principal
+  const filteredProfiles = useMemo(() => {
+    if (!searchTerm) {
+      return profilesData;
+    }
+    
+    // Prepara o termo de busca: minúsculo e sem acentos para busca robusta
+    const lowerCaseSearchTerm = searchTerm.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    return profilesData.filter(profile => {
+      // 1. Função auxiliar para normalizar e buscar em strings
+      const normalizeAndIncludes = (text) => {
+        return text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(lowerCaseSearchTerm);
+      }
+      
+      // 2. Função auxiliar para normalizar e buscar em arrays de strings
+      const arrayIncludes = (arr) => {
+        return arr.some(item => normalizeAndIncludes(item));
+      }
+      
+      // 3. Critérios de Busca (Combina todos os requisitos do projeto: Área, Cidade, Tecnologia)
+      const matchesName = normalizeAndIncludes(profile.nome);
+      const matchesCargo = normalizeAndIncludes(profile.cargo);
+      const matchesLocalizacao = normalizeAndIncludes(profile.localizacao); 
+      const matchesArea = normalizeAndIncludes(profile.area); 
+      const matchesSkills = arrayIncludes(profile.habilidadesTecnicas); // Tecnologia
+      
+      // O perfil é retornado se corresponder a qualquer um dos critérios
+      return matchesName || matchesCargo || matchesLocalizacao || matchesArea || matchesSkills;
+    });
+  }, [searchTerm]); // Re-calcula apenas quando o termo de busca muda
+
+  // Funções de controle do Modal
   const handleCardClick = (profile) => {
     setSelectedProfile(profile);
     setIsModalOpen(true);
   };
   
-  // Função para fechar o modal
   const handleCloseModal = () => {
     setIsModalOpen(false);
-    setSelectedProfile(null); // Limpa o perfil selecionado
+    setSelectedProfile(null);
   }
+  
+  // Função para atualizar o estado do termo de busca
+  const handleSearchChange = (event) => {
+    setSearchTerm(event.target.value);
+  }
+
 
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-gray-900' : 'bg-gray-50'} transition-colors duration-500`}>
-      <header className="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-10">
+      <header className="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-20">
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-indigo-600 dark:text-indigo-400">
             Global Solution Talent Hub
@@ -56,18 +95,29 @@ function App() {
       </header>
 
       <main className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">
-            Encontre o talento certo para o futuro.
-          </h2>
-          <p className="mt-2 text-lg text-gray-500 dark:text-gray-400">
-            Exibindo {profilesData.length} profissionais cadastrados.
-          </p>
-        </div>
+        
+        {/* Renderiza a Barra de Busca e Filtros */}
+        <SearchBar 
+            searchTerm={searchTerm}
+            onSearchChange={handleSearchChange}
+            profilesCount={filteredProfiles.length}
+        />
 
-        {/* Grade de Cards de Profissionais */}
+        {/* Mensagem se não houver resultados */}
+        {filteredProfiles.length === 0 && (
+            <div className="text-center py-12 bg-white dark:bg-gray-800 rounded-xl shadow-md mt-6">
+                <p className="text-xl font-semibold text-gray-700 dark:text-gray-300">
+                    Nenhum profissional encontrado para "{searchTerm}".
+                </p>
+                <p className="mt-2 text-gray-500 dark:text-gray-400">
+                    Tente refinar sua busca por nome, área ou tecnologia.
+                </p>
+            </div>
+        )}
+        
+        {/* Grade de Cards de Profissionais (usa a lista filtrada) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {profilesData.map(profile => (
+          {filteredProfiles.map(profile => (
             <ProfileCard
               key={profile.Id}
               profile={profile}
@@ -77,7 +127,7 @@ function App() {
         </div>
       </main>
 
-      {/* ⬅️ NOVO: Renderização condicional do Modal */}
+      {/* Renderização condicional do Modal */}
       {isModalOpen && selectedProfile && (
         <ProfileModal
           profile={selectedProfile}
