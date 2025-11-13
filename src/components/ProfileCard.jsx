@@ -24,14 +24,11 @@ const ProfileCard = ({ profile, onCardClick }) => {
     >
       <div className="flex items-start space-x-4">
         {/* Foto do Perfil */}
-        <div className="flex-shrink-0">
+        <div className="flex-shrink-0 w-16 h-16">
           <img
-            // Atenção: O caminho é relativo a onde o arquivo JSON é lido.
-            // No React, use o path completo a partir de 'public' ou importe.
-            // Para simplificar, vou assumir que 'foto' aponta para assets/images
-            src={foto.replace('./images', 'src/assets/images')} // Adapte o path conforme seu setup de imagens
+            src={foto.replace('./images', 'src/assets/images')} 
             alt={`Foto de perfil de ${nome}`}
-            className="w-16 h-16 rounded-full object-cover border-2 border-indigo-500"
+            className="w-full h-full rounded-full object-cover border-2 border-indigo-500" //
           />
         </div>
 
