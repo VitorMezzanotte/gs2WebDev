@@ -1,12 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  // ⬅️ CRUCIAL: Adicionar .jsx para que o Tailwind compile as classes usadas nos componentes
   content: [
-    "./src/index.css",
-    // O Tailwind precisa analisar todos os seus arquivos React para encontrar as classes
+    "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}", 
   ],
-  // Adicione a configuração de Dark Mode aqui
-  darkMode: 'class', 
   theme: {
     extend: {},
   },
