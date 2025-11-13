@@ -1,4 +1,4 @@
-# 🌐 Global Solution Talent Hub - Plataforma de Conexão Profissional
+# 🌐 ConnectingIn - Plataforma de Conexão Profissional
 
 ## 🚀 Resumo do Projeto
 
