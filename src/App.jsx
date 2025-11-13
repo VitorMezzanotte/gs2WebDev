@@ -2,13 +2,13 @@ import React, { useState, useEffect, useMemo } from 'react';
 import profilesData from './data/profiles.json'; 
 import ProfileCard from './components/ProfileCard';
 import ProfileModal from './components/ProfileModal';
-import SearchBar from './components/SearchBar'; // ⬅️ NOVO: Import da SearchBar
+import SearchBar from './components/SearchBar'; // Import da SearchBar
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProfile, setSelectedProfile] = useState(null);
-  const [searchTerm, setSearchTerm] = useState(''); // ⬅️ NOVO: Estado para a busca
+  const [searchTerm, setSearchTerm] = useState(''); // Estado para a busca
   
   // Aplica a classe 'dark' ao corpo do HTML
   useEffect(() => {
