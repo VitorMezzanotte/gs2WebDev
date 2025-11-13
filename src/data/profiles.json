@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "nome": "Ana Clara Santos",
-    "foto": "./images/foto1.jpg",
+    "foto": "./src/assets/foto1.avf",
     "cargo": "Especialista em UX/UI Design",
     "resumo": "Designer focada em usabilidade e acessibilidade, com ênfase em Design System.",
     "localizacao": "Florianópolis/SC",
