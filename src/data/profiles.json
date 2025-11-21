@@ -2,7 +2,7 @@
   {
     "Id": 1,
     "nome": "Ana Clara Santos",
-    "foto": "./images/foto1.jpg",
+    "foto": "/images/foto1.jpg",
     "cargo": "Especialista em UX/UI Design",
     "resumo": "Designer focada em usabilidade e acessibilidade, com ênfase em Design System.",
     "localizacao": "Florianópolis/SC",
@@ -41,7 +41,7 @@
   {
     "Id": 2,
     "nome": "Bruno Costa e Silva",
-    "foto": "./images/foto2.jpg",
+    "foto": "/images/foto2.jpg",
     "cargo": "Desenvolvedor Full Stack Sênior",
     "resumo": "Engenheiro de Software com foco em performance e escalabilidade, utilizando React e Node.js.",
     "localizacao": "São Paulo/SP",
@@ -80,7 +80,7 @@
   {
     "Id": 3,
     "nome": "Carla Oliveira Pires",
-    "foto": "./images/foto3.jpg",
+    "foto": "/images/foto3.jpg",
     "cargo": "Analista de Dados Pleno",
     "resumo": "Especialista em visualização de dados e *storytelling* com Power BI e Python.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -119,7 +119,7 @@
   {
     "Id": 4,
     "nome": "Daniel Souza Almeida",
-    "foto": "./images/foto4.jpg",
+    "foto": "/images/foto4.jpg",
     "cargo": "Gerente de Projetos (Agile)",
     "resumo": "Focado em eficiência, liderando times com metodologias ágeis e Scrum.",
     "localizacao": "Belo Horizonte/MG",
@@ -158,7 +158,7 @@
   {
     "Id": 5,
     "nome": "Eliane Rocha Lima",
-    "foto": "./images/foto5.jpg",
+    "foto": "/images/foto5.jpg",
     "cargo": "Analista de SEO e Conteúdo",
     "resumo": "Estrategista digital, otimizando conteúdo para buscadores e gerando tráfego orgânico.",
     "localizacao": "Curitiba/PR",
@@ -197,7 +197,7 @@
   {
     "Id": 6,
     "nome": "Fábio Gomes Pereira",
-    "foto": "./images/foto6.jpg",
+    "foto": "/images/foto6.jpg",
     "cargo": "Engenheiro de Dados",
     "resumo": "Construindo *pipelines* de dados escaláveis e mantendo infraestruturas de Big Data.",
     "localizacao": "Recife/PE",
@@ -236,7 +236,7 @@
   {
     "Id": 7,
     "nome": "Giovanna Melo",
-    "foto": "./images/foto7.jpg",
+    "foto": "/images/foto7.jpg",
     "cargo": "Desenvolvedora Front-End Júnior",
     "resumo": "Apaixonada por interfaces modernas e por aprender novas tecnologias, como Tailwind CSS.",
     "localizacao": "Porto Alegre/RS",
@@ -275,7 +275,7 @@
   {
     "Id": 8,
     "nome": "Henrique Torres",
-    "foto": "./images/foto8.jpg",
+    "foto": "/images/foto8.jpg",
     "cargo": "Consultor de Sustentabilidade",
     "resumo": "Auxiliando empresas na transição para práticas mais sustentáveis e éticas.",
     "localizacao": "Brasília/DF",
@@ -314,7 +314,7 @@
   {
     "Id": 9,
     "nome": "Isabela Martins",
-    "foto": "./images/foto9.jpg",
+    "foto": "/images/foto9.jpg",
     "cargo": "Cloud Architect",
     "resumo": "Especialista em migração e otimização de infraestrutura na nuvem AWS e Azure.",
     "localizacao": "Campinas/SP",
@@ -353,7 +353,7 @@
   {
     "Id": 10,
     "nome": "João Pedro Neves",
-    "foto": "./images/foto10.jpg",
+    "foto": "/images/foto10.jpg",
     "cargo": "Cientista de Dados",
     "resumo": "Construindo modelos de Machine Learning para resolver problemas de negócio complexos.",
     "localizacao": "Salvador/BA",
@@ -392,7 +392,7 @@
   {
     "Id": 11,
     "nome": "Karen Lima",
-    "foto": "./images/foto11.jpg",
+    "foto": "/images/foto11.jpg",
     "cargo": "Especialista em Cibersegurança",
     "resumo": "Protegendo sistemas e dados contra ameaças, com foco em pentesting e resposta a incidentes.",
     "localizacao": "São Paulo/SP",
@@ -431,7 +431,7 @@
   {
     "Id": 12,
     "nome": "Luiz Fernando Dias",
-    "foto": "./images/foto12.jpg",
+    "foto": "/images/foto12.jpg",
     "cargo": "Desenvolvedor Back-End",
     "resumo": "Desenvolvimento de APIs robustas e performáticas com Java e Spring Boot.",
     "localizacao": "Belo Horizonte/MG",
@@ -470,7 +470,7 @@
   {
     "Id": 13,
     "nome": "Marina Vieira",
-    "foto": "./images/foto13.jpg",
+    "foto": "/images/foto13.jpg",
     "cargo": "Especialista em RH e People Analytics",
     "resumo": "Transformando a gestão de pessoas com dados, focada em engajamento e retenção.",
     "localizacao": "Curitiba/PR",
@@ -509,7 +509,7 @@
   {
     "Id": 14,
     "nome": "Nelson Ferreira",
-    "foto": "./images/foto14.jpg",
+    "foto": "/images/foto14.jpg",
     "cargo": "Engenheiro de Machine Learning",
     "resumo": "Implantação e manutenção de modelos de IA em produção (MLOps).",
     "localizacao": "Rio de Janeiro/RJ",
@@ -548,7 +548,7 @@
   {
     "Id": 15,
     "nome": "Olívia Mendes",
-    "foto": "./images/foto15.jpg",
+    "foto": "/images/foto15.jpg",
     "cargo": "Product Manager (PM)",
     "resumo": "Liderando a visão e estratégia de produtos digitais, focada na satisfação do cliente.",
     "localizacao": "São Paulo/SP",
@@ -587,7 +587,7 @@
   {
     "Id": 16,
     "nome": "Pedro Teixeira",
-    "foto": "./images/foto16.jpg",
+    "foto": "/images/foto16.jpg",
     "cargo": "Desenvolvedor Mobile (iOS)",
     "resumo": "Criando aplicativos iOS nativos de alta performance e usabilidade com Swift.",
     "localizacao": "Porto Alegre/RS",
@@ -626,7 +626,7 @@
   {
     "Id": 17,
     "nome": "Quitéria Alves",
-    "foto": "./images/foto17.jpg",
+    "foto": "/images/foto17.jpg",
     "cargo": "Analista de Qualidade (QA)",
     "resumo": "Garantindo a entrega de software sem falhas com testes automatizados e manuais.",
     "localizacao": "Salvador/BA",
@@ -665,7 +665,7 @@
   {
     "Id": 18,
     "nome": "Ricardo Nunes",
-    "foto": "./images/foto18.jpg",
+    "foto": "/images/foto18.jpg",
     "cargo": "Consultor SAP FI/CO",
     "resumo": "Otimizando processos financeiros e de custos com foco na customização de módulos SAP.",
     "localizacao": "Porto Alegre/RS",
@@ -704,7 +704,7 @@
   {
     "Id": 19,
     "nome": "Sofia Pires",
-    "foto": "./images/foto19.jpg",
+    "foto": "/images/foto19.jpg",
     "cargo": "Redatora Técnica (Tech Writer)",
     "resumo": "Simplificando documentação técnica complexa para engenheiros e usuários finais.",
     "localizacao": "Belo Horizonte/MG",
@@ -743,7 +743,7 @@
   {
     "Id": 20,
     "nome": "Thiago Morais",
-    "foto": "./images/foto20.jpg",
+    "foto": "/images/foto20.jpg",
     "cargo": "Arquiteto de Soluções",
     "resumo": "Transformando requisitos de negócio em arquiteturas de software escaláveis e sustentáveis.",
     "localizacao": "Campinas/SP",
@@ -782,7 +782,7 @@
   {
     "Id": 21,
     "nome": "Ulisses Ramos",
-    "foto": "./images/foto21.jpg",
+    "foto": "/images/foto21.jpg",
     "cargo": "Especialista em Suporte Técnico",
     "resumo": "Garantindo a satisfação do cliente e a resolução rápida de problemas técnicos.",
     "localizacao": "Belo Horizonte/MG",
@@ -821,7 +821,7 @@
   {
     "Id": 22,
     "nome": "Vitória Xavier",
-    "foto": "./images/foto22.jpg",
+    "foto": "/images/foto22.jpg",
     "cargo": "Desenvolvedora Front-End Pleno",
     "resumo": "Desenvolvimento de interfaces responsivas e otimizadas com React e Typescript.",
     "localizacao": "São Paulo/SP",
@@ -860,7 +860,7 @@
   {
     "Id": 23,
     "nome": "Wallace Souza",
-    "foto": "./images/foto23.jpg",
+    "foto": "/images/foto23.jpg",
     "cargo": "Engenheiro DevOps Sênior",
     "resumo": "Automatizando a entrega de software, desde a integração contínua (CI) até o *deploy* (CD).",
     "localizacao": "Campinas/SP",
@@ -899,7 +899,7 @@
   {
     "Id": 24,
     "nome": "Xênia Freitas",
-    "foto": "./images/foto24.jpg",
+    "foto": "/images/foto24.jpg",
     "cargo": "Especialista em Governança de TI",
     "resumo": "Garantindo a conformidade e alinhamento estratégico da TI com o negócio.",
     "localizacao": "Brasília/DF",
@@ -938,7 +938,7 @@
   {
     "Id": 25,
     "nome": "Yuri Gonçalves",
-    "foto": "./images/foto25.jpg",
+    "foto": "/images/foto25.jpg",
     "cargo": "Desenvolvedor Unity (Games)",
     "resumo": "Criação de experiências interativas e jogos inovadores para plataformas mobile e PC.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -977,7 +977,7 @@
   {
     "Id": 26,
     "nome": "Zoe Antunes",
-    "foto": "./images/foto26.jpg",
+    "foto": "/images/foto26.jpg",
     "cargo": "Analista de Marketing de Produto (PMM)",
     "resumo": "Conectando o desenvolvimento do produto com o mercado através de lançamentos e posicionamento estratégico.",
     "localizacao": "São Paulo/SP",
@@ -1016,7 +1016,7 @@
   {
     "Id": 27,
     "nome": "Adriano Brito",
-    "foto": "./images/foto27.jpg",
+    "foto": "/images/foto27.jpg",
     "cargo": "Desenvolvedor Full Stack (Angular)",
     "resumo": "Experiência em soluções empresariais com Angular e .NET Core.",
     "localizacao": "Florianópolis/SC",
@@ -1055,7 +1055,7 @@
   {
     "Id": 28,
     "nome": "Beatriz Camargo",
-    "foto": "./images/foto28.jpg",
+    "foto": "/images/foto28.jpg",
     "cargo": "Tech Recruiter",
     "resumo": "Especialista em atração e seleção de talentos raros na área de TI e Engenharia.",
     "localizacao": "Curitiba/PR",
@@ -1094,7 +1094,7 @@
   {
     "Id": 29,
     "nome": "César Dantas",
-    "foto": "./images/foto29.jpg",
+    "foto": "/images/foto29.jpg",
     "cargo": "Consultor de RPA (Automação)",
     "resumo": "Automatizando processos de negócio repetitivos com ferramentas de Robotic Process Automation.",
     "localizacao": "São Paulo/SP",
@@ -1133,7 +1133,7 @@
   {
     "Id": 30,
     "nome": "Diana Esteves",
-    "foto": "./images/foto30.jpg",
+    "foto": "/images/foto30.jpg",
     "cargo": "Gerente de Marketing Digital",
     "resumo": "Liderança de equipes e estratégias de marketing digital, com foco em resultados de Growth.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1172,7 +1172,7 @@
   {
     "Id": 31,
     "nome": "Eduardo Faria",
-    "foto": "./images/foto31.jpg",
+    "foto": "/images/foto31.jpg",
     "cargo": "Desenvolvedor Back-End (Python)",
     "resumo": "Especialista em Django e Flask, criando APIs escaláveis e seguras.",
     "localizacao": "Recife/PE",
@@ -1211,7 +1211,7 @@
   {
     "Id": 32,
     "nome": "Fernanda Godoy",
-    "foto": "./images/foto32.jpg",
+    "foto": "/images/foto32.jpg",
     "cargo": "Design Estratégico e Service Design",
     "resumo": "Melhorando a experiência de ponta a ponta, alinhando design com estratégia de negócio.",
     "localizacao": "Belo Horizonte/MG",
@@ -1250,7 +1250,7 @@
   {
     "Id": 33,
     "nome": "Gabriel Hermes",
-    "foto": "./images/foto33.jpg",
+    "foto": "/images/foto33.jpg",
     "cargo": "Engenheiro de Telecomunicações",
     "resumo": "Especialista em redes 5G e otimização de infraestrutura de comunicação.",
     "localizacao": "Brasília/DF",
@@ -1289,7 +1289,7 @@
   {
     "Id": 34,
     "nome": "Heloísa Igarashi",
-    "foto": "./images/foto34.jpg",
+    "foto": "/images/foto34.jpg",
     "cargo": "Coordenadora de Atendimento e SAC 4.0",
     "resumo": "Liderança de equipes de atendimento, focada em canais digitais e inteligência artificial.",
     "localizacao": "Curitiba/PR",
@@ -1328,7 +1328,7 @@
   {
     "Id": 35,
     "nome": "Igor Junqueira",
-    "foto": "./images/foto35.jpg",
+    "foto": "/images/foto35.jpg",
     "cargo": "Gerente de Inovação",
     "resumo": "Identificando e implementando novas tecnologias para o crescimento e otimização de processos.",
     "localizacao": "São Paulo/SP",
@@ -1367,7 +1367,7 @@
   {
     "Id": 36,
     "nome": "Júlia Kairós",
-    "foto": "./images/foto36.jpg",
+    "foto": "/images/foto36.jpg",
     "cargo": "Analista de Qualidade de Dados",
     "resumo": "Garantindo a precisão, integridade e consistência dos dados em ambientes de Big Data.",
     "localizacao": "Florianópolis/SC",
@@ -1406,7 +1406,7 @@
   {
     "Id": 37,
     "nome": "Kleber Lima",
-    "foto": "./images/foto37.jpg",
+    "foto": "/images/foto37.jpg",
     "cargo": "Desenvolvedor Back-End (GoLang)",
     "resumo": "Focado em sistemas de alta concorrência e baixa latência com Go e microsserviços.",
     "localizacao": "São Paulo/SP",
@@ -1445,7 +1445,7 @@
   {
     "Id": 38,
     "nome": "Lara Marques",
-    "foto": "./images/foto38.jpg",
+    "foto": "/images/foto38.jpg",
     "cargo": "Agente de Transformação Digital",
     "resumo": "Facilitando a adoção de novas tecnologias e a mudança cultural dentro das organizações.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1484,7 +1484,7 @@
   {
     "Id": 39,
     "nome": "Mateus Nóbrega",
-    "foto": "./images/foto39.jpg",
+    "foto": "/images/foto39.jpg",
     "cargo": "Engenheiro de SRE (Site Reliability)",
     "resumo": "Garantindo a confiabilidade, escalabilidade e performance de sistemas críticos.",
     "localizacao": "Belo Horizonte/MG",
@@ -1523,7 +1523,7 @@
   {
     "Id": 40,
     "nome": "Natália Oliveira",
-    "foto": "./images/foto40.jpg",
+    "foto": "/images/foto40.jpg",
     "cargo": "Product Designer (Especialista em Pesquisa)",
     "resumo": "Utilizando pesquisa aprofundada para informar e validar decisões de design.",
     "localizacao": "São Paulo/SP",
@@ -1562,7 +1562,7 @@
   {
     "Id": 41,
     "nome": "Osmar Peres",
-    "foto": "./images/foto41.jpg",
+    "foto": "/images/foto41.jpg",
     "cargo": "Consultor de Vendas B2B (SaaS)",
     "resumo": "Fechando grandes contas e construindo relacionamentos estratégicos no mercado de software B2B.",
     "localizacao": "Porto Alegre/RS",
@@ -1601,7 +1601,7 @@
   {
     "Id": 42,
     "nome": "Patrícia Quaresma",
-    "foto": "./images/foto42.jpg",
+    "foto": "/images/foto42.jpg",
     "cargo": "Analista Fiscal e Tributária",
     "resumo": "Garantindo a conformidade legal e otimização de tributos em empresas de tecnologia.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -1640,7 +1640,7 @@
   {
     "Id": 43,
     "nome": "Quirino Rocha",
-    "foto": "./images/foto43.jpg",
+    "foto": "/images/foto43.jpg",
     "cargo": "Desenvolvedor Front-End (Vue.js)",
     "resumo": "Desenvolvendo interfaces leves e reativas com Vue.js e Element UI.",
     "localizacao": "Belo Horizonte/MG",
@@ -1679,7 +1679,7 @@
   {
     "Id": 44,
     "nome": "Renata Silva",
-    "foto": "./images/foto44.jpg",
+    "foto": "/images/foto44.jpg",
     "cargo": "Analista de Sucesso do Cliente (CS)",
     "resumo": "Garantindo que os clientes atinjam seus objetivos com o produto (SaaS).",
     "localizacao": "São Paulo/SP",
@@ -1718,7 +1718,7 @@
   {
     "Id": 45,
     "nome": "Sérgio Tavares",
-    "foto": "./images/foto45.jpg",
+    "foto": "/images/foto45.jpg",
     "cargo": "Cientista de Dados (NLP)",
     "resumo": "Especialista em Processamento de Linguagem Natural e modelos de texto.",
     "localizacao": "Curitiba/PR",
@@ -1757,7 +1757,7 @@
   {
     "Id": 46,
     "nome": "Tatiana Uchoa",
-    "foto": "./images/foto46.jpg",
+    "foto": "/images/foto46.jpg",
     "cargo": "Desenvolvedora Mobile (React Native)",
     "resumo": "Criação de aplicativos *cross-platform* com React Native e Typescript.",
     "localizacao": "São Paulo/SP",
@@ -1796,7 +1796,7 @@
   {
     "Id": 47,
     "nome": "Vinícius Valente",
-    "foto": "./images/foto47.jpg",
+    "foto": "/images/foto47.jpg",
     "cargo": "Auditor de Cibersegurança",
     "resumo": "Avaliação de riscos e conformidade de segurança em ambientes de TI.",
     "localizacao": "Brasília/DF",
@@ -1835,7 +1835,7 @@
   {
     "Id": 48,
     "nome": "Wesley Ximenes",
-    "foto": "./images/foto48.jpg",
+    "foto": "/images/foto48.jpg",
     "cargo": "Especialista em Redes e Infraestrutura",
     "resumo": "Administração de redes, servidores e sistemas de virtualização.",
     "localizacao": "Florianópolis/SC",
@@ -1874,7 +1874,7 @@
   {
     "Id": 49,
     "nome": "Yasmin Zanchetti",
-    "foto": "./images/foto49.jpg",
+    "foto": "/images/foto49.jpg",
     "cargo": "Consultora de ERP/CRM (Salesforce)",
     "resumo": "Otimizando processos de vendas, marketing e atendimento com a plataforma Salesforce.",
     "localizacao": "Curitiba/PR",
@@ -1913,7 +1913,7 @@
   {
     "Id": 50,
     "nome": "Arthur Barbosa",
-    "foto": "./images/foto50.jpg",
+    "foto": "/images/foto50.jpg",
     "cargo": "Desenvolvedor Front-End Sênior",
     "resumo": "Arquiteto de front-end com foco em performance e escalabilidade de grandes aplicações.",
     "localizacao": "São Paulo/SP",
@@ -1952,7 +1952,7 @@
   {
     "Id": 51,
     "nome": "Bianca Castro",
-    "foto": "./images/foto51.jpg",
+    "foto": "/images/foto51.jpg",
     "cargo": "Analista de Dados Júnior",
     "resumo": "Análise exploratória de dados e construção de modelos de visualização.",
     "localizacao": "Recife/PE",
@@ -1991,7 +1991,7 @@
   {
     "Id": 52,
     "nome": "Carlos Duarte",
-    "foto": "./images/foto52.jpg",
+    "foto": "/images/foto52.jpg",
     "cargo": "Engenheiro de Automação (Indústria)",
     "resumo": "Otimizando linhas de produção com sistemas de controle e IoT industrial.",
     "localizacao": "Belo Horizonte/MG",
@@ -2030,7 +2030,7 @@
   {
     "Id": 53,
     "nome": "Denise Esteves",
-    "foto": "./images/foto53.jpg",
+    "foto": "/images/foto53.jpg",
     "cargo": "Consultora de Gestão e Processos",
     "resumo": "Mapeando e otimizando processos de negócio para aumentar a eficiência operacional.",
     "localizacao": "São Paulo/SP",
@@ -2069,7 +2069,7 @@
   {
     "Id": 54,
     "nome": "Elias França",
-    "foto": "./images/foto54.jpg",
+    "foto": "/images/foto54.jpg",
     "cargo": "Especialista em Suporte Cloud (AWS)",
     "resumo": "Suporte e otimização de ambientes de produção na nuvem Amazon Web Services.",
     "localizacao": "Campinas/SP",
@@ -2108,7 +2108,7 @@
   {
     "Id": 55,
     "nome": "Fátima Guedes",
-    "foto": "./images/foto55.jpg",
+    "foto": "/images/foto55.jpg",
     "cargo": "Gerente de People Analytics",
     "resumo": "Utilizando dados para direcionar decisões estratégicas de RH e cultura.",
     "localizacao": "São Paulo/SP",
@@ -2147,7 +2147,7 @@
   {
     "Id": 56,
     "nome": "Gustavo Horta",
-    "foto": "./images/foto56.jpg",
+    "foto": "/images/foto56.jpg",
     "cargo": "Desenvolvedor Back-End (PHP/Laravel)",
     "resumo": "Construindo aplicações web robustas e seguras com o framework Laravel.",
     "localizacao": "Florianópolis/SC",
@@ -2186,7 +2186,7 @@
   {
     "Id": 57,
     "nome": "Helena Ivo",
-    "foto": "./images/foto57.jpg",
+    "foto": "/images/foto57.jpg",
     "cargo": "Analista de Planejamento Financeiro (FP&A)",
     "resumo": "Análise de desempenho financeiro, *budget* e *forecasting* em empresas de tecnologia.",
     "localizacao": "Rio de Janeiro/RJ",
@@ -2225,7 +2225,7 @@
   {
     "Id": 58,
     "nome": "Igor Jonas",
-    "foto": "./images/foto58.jpg",
+    "foto": "/images/foto58.jpg",
     "cargo": "Gerente de Projetos de Infraestrutura",
     "resumo": "Gerenciamento de projetos de migração de *datacenter* e implementação de soluções Cloud.",
     "localizacao": "São Paulo/SP",
@@ -2264,7 +2264,7 @@
   {
     "Id": 59,
     "nome": "Juliana Kramer",
-    "foto": "./images/foto59.jpg",
+    "foto": "/images/foto59.jpg",
     "cargo": "Consultora de Inovação Aberta",
     "resumo": "Conectando corporações a startups e ecossistemas de inovação para co-criação de soluções.",
     "localizacao": "Belo Horizonte/MG",
@@ -2303,7 +2303,7 @@
   {
     "Id": 60,
     "nome": "Léo Machado",
-    "foto": "./images/foto60.jpg",
+    "foto": "/images/foto60.jpg",
     "cargo": "Desenvolvedor Full Stack (MERN)",
     "resumo": "Construindo aplicações web de ponta a ponta com a *stack* MERN (MongoDB, Express, React, Node).",
     "localizacao": "São Paulo/SP",
